@@ -1,3 +1,4 @@
+
 cmake_minimum_required(VERSION 3.16)
 project(arraylib VERSION 1.0.0 LANGUAGES CXX)
 
@@ -47,5 +48,5 @@ endif()
 
 # Пример по варианту
 include_directories(${CMAKE_SOURCE_DIR}/include)
-add_executable(variant_01 examples/variant_01.cpp)
-target_link_libraries(variant_01 PRIVATE arraylib)
+add_executable(variant_19 examples/variant_19.cpp)
+target_link_libraries(variant_19 PRIVATE arraylib)
