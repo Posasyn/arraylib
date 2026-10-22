@@ -1,4 +1,12 @@
 build/
+*.o
+*.so
+*.a
+app
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefilebuild/
 out/
 *.o
 *.a
